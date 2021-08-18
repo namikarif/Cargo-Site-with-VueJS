@@ -1,0 +1,87 @@
+/*Muse elements transitions*/
+a,
+p,
+nav p,
+nav .MenuItem,
+nav .MenuItemWithSubMenu,
+.SSSlideLink,
+.PamphletNextButton,
+.PamphletPrevButton,
+.PamphletCloseButton,
+.popup_element,
+.SSPreviousButton,
+.SSNextButton,
+.popup_element > .clip_frame,
+.Button > .clip_frame {
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+}
+
+/*User elements transitions*/
+.social-icon-team,
+.work-thumb-hover {
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+}
+
+/*User Style*/
+.block-step {
+    background-position: 20px 0 !important; 
+}
+
+.block-step:hover {
+    background-position: 0 0 !important;
+}
+
+.btn-read-more p:before {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute !important;
+    top: 30px;
+    -webkit-transition: .30s ease-in-out;
+    -moz-transition: .30s ease-in-out;
+    -ms-transition: .30s ease-in-out;
+    -o-transition: .30s ease-in-out;
+    transition: .30s ease-in-out;
+}
+
+.block-step:hover .btn-read-more p:before, .block-latest-news:hover .btn-read-more p:before, .btn-read-more:hover p.btn-news:before {
+    width: 100%;
+}
+
+.block-latest-news > .btn-read-more p:before {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #FFB600;
+    position: absolute !important;
+    top: 30px;
+    -webkit-transition: .30s ease-in-out;
+    -moz-transition: .30s ease-in-out;
+    -ms-transition: .30s ease-in-out;
+    -o-transition: .30s ease-in-out;
+    transition: .30s ease-in-out;
+}
+
+/*Sidebar*/
+
+nav.menu-sidebar .MenuItemContainer:last-child .MenuItemWithSubMenu {
+    border-bottom: 5px !important;
+}
+
+/*Elements*/
+.AccordionPanel {
+    margin-bottom: 10px
+}
+
+/*News*/
+
+.btn-read-more p.btn-news:before {
+    background-color: #FFB300;
+}

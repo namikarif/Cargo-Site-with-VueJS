@@ -1,0 +1,18 @@
+@import "table";
+@import "wijmo.extends";
+
+.dropdown-item {
+  color: #1c1c1b !important;
+}
+
+.user-dropdown {
+  button {
+    background-color: transparent !important;
+    border: none !important;
+    color: #1c1c1b !important;
+
+    &:focus, &:active {
+      box-shadow: none !important;
+    }
+  }
+}

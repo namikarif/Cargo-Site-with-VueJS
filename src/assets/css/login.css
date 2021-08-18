@@ -1,0 +1,245 @@
+.log-det {
+    padding: 40px;
+}
+
+.log-det .small-logo {
+    text-align: center;
+    align-items: center;
+    color: #c82333;
+    font-size: 1.2rem;
+}
+
+.log-det .small-logo i {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.log-det .dfmn {
+    margin-top: 15px;
+    font-size: .9rem;
+}
+
+.log-det h2 {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.log-det ul {
+    float: none;
+    margin: auto;
+    /*width: 200px;*/
+}
+
+.log-det ul li {
+    float: left;
+    padding: 10px;
+}
+
+.log-det ul li i {
+    padding: 10px;
+    border: 1px solid #CCC;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.log-det p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.log-det .small-info {
+    font-size: .9rem;
+    border-top: 1px solid #cccccc73;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+.log-det .btn {
+    width: 100%;
+}
+
+.log-det .text-box-cont {
+    max-width: 360px;
+    float: none;
+    margin: auto;
+}
+
+.log-det .text-box-cont .input-group .input-group-prepend span {
+    background-color: #F8F8F8;
+    border-radius: 0px;
+    border-right: 0px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.log-det .text-box-cont .input-group .input-group-prepend i {
+    color: #777474;
+    font-size: 14px;
+}
+
+.log-det .text-box-cont .input-group input {
+    border-left: 0px;
+    border-radius: 0px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.log-det .text-box-cont .btn {
+    height: 34px;
+    border-radius: 50px;
+    padding: 10px 30px;
+    margin: auto auto 10px;
+    font-size: 13px;
+}
+
+.log-det .forget-p {
+    margin-top: 10px;
+    font-size: .9rem;
+}
+
+.log-det .forget-p span {
+    color: #ff910d;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .cdvfdfd {
+        padding: 15px;
+    }
+}
+
+.login-box {
+    background-color: #FFF;
+    float: none;
+    margin: auto;
+    border-radius: 25px !important;
+    -webkit-box-shadow: 0px 0px 72px -10px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 0px 0px 72px -10px rgba(0, 0, 0, 0.44);
+    box-shadow: 0px 0px 72px -10px rgba(0, 0, 0, 0.44);
+    border-radius: 5px;
+    margin-top: 6%;
+}
+
+
+.box-de {
+    /*background-image: url(../images/bg.jpg);*/
+    background-size: 100%;
+    padding: 0px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.box-de .inn-cover {
+    display: flex;
+    background-color: #ff910d;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .box-de .inn-cover {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 25px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .box-de {
+        border-bottom-left-radius: 25px;
+    }
+}
+
+.box-de .ditk-inf {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+}
+
+.box-de .ditk-inf .small-logo {
+    position: relative;
+    top: 0px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.box-de .ditk-inf .small-logo i {
+    font-size: 44px;
+}
+
+.box-de .ditk-inf p {
+    margin-top: 15px;
+    font-size: .9rem;
+}
+
+.box-de .ditk-inf .btn-outline-light {
+    height: 34px;
+    border-radius: 50px;
+    box-shadow: none;
+    padding: 5px 20px;
+    margin-top: 25px;
+}
+
+.box-de .small-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #FFF;
+}
+
+.box-de .small-logo i {
+    font-size: 22px;
+    margin-right: 5px;
+}
+
+.box-de .foter-credit {
+    position: absolute;
+    bottom: 10px;
+    right: 6%;
+    font-size: 14px;
+    padding: 10px;
+    color: #FFF;
+    font-weight: 300;
+}
+
+.box-de .foter-credit a {
+    color: #FFF;
+}
+
+@media screen and (max-width: 767px) {
+    .box-de .foter-credit {
+        display: none;
+    }
+}
+
+.sup {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .sup-oi {
+        margin-top: 40px !important;
+    }
+}
+
+.username.form-control:focus, .password.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #dc3545 !important;
+}
