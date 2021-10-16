@@ -5,7 +5,7 @@
       <div class="row none">
         <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 shop" v-for="store in storeList" v-bind:key="store.id">
           <a :href="store.url" target="_blank">
-            <img :src="'https://cargodiem.az/storage/websites/' + store.thumb_img" class="shop-img">
+            <img :src="'https://namikarifoglu.com/storage/websites/' + store.thumb_img" class="shop-img">
             <label class="shop-name">{{ store.name_az }}</label>
           </a>
         </div>
