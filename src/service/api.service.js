@@ -12,15 +12,15 @@ export function login(endpint, data) {
             'Www-Authorization': 'Bearer login'
         }
     }
-    return axios.post('https://mapi.cargodiem.az/' + endpint, data, loginConfig).then(response => response.data).catch(error => errorHandler(error));
+    return axios.post('https://mapi.namikarifoglu.com/' + endpint, data, loginConfig).then(response => response.data).catch(error => errorHandler(error));
 }
 
 export function post(endpint, data) {
-    return axios.post('https://mapi.cargodiem.az/' + endpint, data, config).then(response => response.data).catch(error => errorHandler(error));
+    return axios.post('https://mapi.namikarifoglu.com/' + endpint, data, config).then(response => response.data).catch(error => errorHandler(error));
 }
 
 export function get(endpint) {
-    return axios.get('https://mapi.cargodiem.az/' + endpint, config).then(response => response.data).catch(error => errorHandler(error));
+    return axios.get('https://mapi.namikarifoglu.com/' + endpint, config).then(response => response.data).catch(error => errorHandler(error));
 }
 
 const errorHandler = (error) => {
