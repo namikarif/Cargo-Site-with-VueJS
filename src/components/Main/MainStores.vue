@@ -11,7 +11,7 @@
       <slide v-for="store in storeList" v-bind:key="store.id">
         <a :href="store.url" target="_blank" class="store-item my-3">
           <div class="img-wrap d-flex align-items-center justify-content-center">
-            <img :src="'https://cargodiem.az/storage/websites/' + store.thumb_img" :alt="store.name_az">
+            <img :src="'https://namikarifoglu.com/storage/websites/' + store.thumb_img" :alt="store.name_az">
           </div>
           <p>{{ store.name_az }}</p>
         </a>
