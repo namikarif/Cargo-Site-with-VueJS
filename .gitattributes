@@ -1,2 +1,1 @@
- *.* linguist-language=Vue
- *.* linguist-language=Html
+ *.* linguist-language=Vue, HTML, SCSS
